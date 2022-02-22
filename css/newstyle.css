@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 82.5px;
+}
 body {
   font-family: 'Neosans';
   padding: 0;
@@ -137,11 +141,14 @@ h5 {
   .main_menu .main-menu-item ul li .nav-link:hover {
     color: #138275!important;
 }
+.main_menu .main-menu-item ul{
+  align-items: center;
+}
 .header-btn .nav-link:hover span {
   color: #fff;
 }
   .menu_fixed {
-    /* position: fixed; */
+    position: fixed;
     z-index: 9999 !important;
     width: 100%;
     background-color: #fff;
@@ -375,7 +382,7 @@ button:hover {
   background: url(../images/lledback.png) center;
   text-align: center;
   position: relative;
-  padding: 65px 0;
+  padding: 90px 0;
 }
 .led-light-img img {
   width: 100%;
@@ -424,7 +431,7 @@ button:hover {
 
 /* contact form */
 section.led-contact {
-  padding: 50px 0;
+  padding: 90px 0;
   position: relative;
 }
 section.led-contact:before {
